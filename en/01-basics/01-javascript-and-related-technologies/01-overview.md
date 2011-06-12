@@ -1,12 +1,12 @@
 
 # Overview: JavaScript, Flash, Java, Silverlight and ActiveX 
 
-Let's see what's so special in JavaScript, why JavaScript and what other useful  technologies exist besides it.
+Let's see what's so special in JavaScript, why JavaScript and what other useful technologies exist besides it.
 
 =Cut
 
 
-## What is JavaScript?   
+## What is JavaScript?
 
 <b>JavaScript is a scripting language, created for making html-pages live</b>. It turns the web into something more powerful than just interlinked html pages.
 
@@ -17,7 +17,7 @@ Programs in JavaScript are called <i>scripts</i>. They need no compilation, you 
 Some people say JavaScript is like Python, some find it similar to Ruby or Self. The truth is that JavaScript is on its own, a really elegant but specific language.
 
 
-## What JavaScript can do?   
+## What JavaScript can do?
 
 
 <ul>
@@ -31,9 +31,9 @@ Some people say JavaScript is like Python, some find it similar to Ruby or Self.
 Modern JavaScript is a generic language. It is not browser-only. There are console programs and server <a href="http://nodejs.org">Node.JS</a> written in JavaScript. In this tutorial we're talking about in-browser JavaScript only.
 
 
-## What JavaScript can't do?   
+## What JavaScript can't do?
 
-JavaScript is a generic language, fast and powerful. 
+JavaScript is a generic language, fast and powerful.
 
 But execution in browser context implies certain security limitations.
 
@@ -50,7 +50,7 @@ That's because you surely don't want a web-page script to execute with your priv
 </ul>
 
 
-## What's so cool in JavaScript?   
+## What's so cool in JavaScript?
 
 There are at least <i>three</i> killing points about it.
 
@@ -60,12 +60,12 @@ There are at least <i>three</i> killing points about it.
 <li class="list-plus">Supported by all browsers and enabled by default</li>
 </ol>
 
-The mix of the advantages cannot be found in any of other technologies.
+The mix of these advantages cannot be found in any of other technologies.
 
 Also, remember that JavaScript is alive, under constant development. New features are coming, the modern ECMAScript standard brings nice features, new JavaScript engines work better and faster.
 
 
-## Trends in JavaScript. HTML5.   
+## Trends in JavaScript: HTML5
 
 When you plan to study a technology, say <i>invest your time</i>, it is always good to overview the trends.
 
@@ -73,7 +73,7 @@ Besides the modern ECMAScript specification, which enhances the language itself,
 
 Just a few:
 <ul>
-<li>Reading/writing files on visitor's disk (with proper security to keep it safe).</li>
+<li>Reading/writing files on visitor's disk (with proper security measures to keep it safe).</li>
 <li>A database embedded into the browser, which allows to store data on client side.</li>
 <li>Multithreading (can use multiple CPUs).</li>
 <li>Video playback.</li>
@@ -102,23 +102,23 @@ Of course as far as we don't use browser-specific features or early-adopted draf
 
 
 
-## Alternative technologies   
+## Alternative technologies
 
 Abilities of JavaScript in certain areas are limited. That's why alternative technologies are used.
 
 The point is: all of them play really well with JavaScript. Sometimes, a task can't be solved by JavaScript, but there are possibilities to use JavaScript + Java or JavaScript + Flash or drop in ActiveX. 
 
 
-### Java   
+### Java
 
 As you already know, JavaScript is not Java. In fact, they don't have much in common besides a name. Java is a different language that allows to write applets and embed them into HTML-page.
 
-<b>A Java applet is a program for a browser just like an executable file.</b> A programmer writes it in Java, then compiles and puts a link on it into HTML. A browser then opens a page, finds the reference to an applet, downloads and executes it (if Java is enabled).
+<b>A Java applet is a program for a browser just like an executable file.</b> A programmer writes it in Java, then compiles it and puts a link to it into HTML. A browser then opens a page, finds the reference to an applet, downloads and executes it (if Java is enabled).
 
 An important difference between a Java applet and JavaScript is their abilities. 
 
 <ul class="balance">
-<li class="plus">Java can do <i>everything</i>, just like an installed  executable. For security, an unsafe action requires visitor's confirmation.</li>
+<li class="plus">Java can do <i>everything</i>, just like an installed executable. For security purposes, an unsafe action requires visitor's confirmation.</li>
 <li class="plus">Java development is easier: IDEs are cool.</li>
 <li class="minus">Java takes more time to load and is heavy to start running.</li>
 <li class="minus">Java needs to be installed and enabled.</li>
@@ -126,34 +126,34 @@ An important difference between a Java applet and JavaScript is their abilities.
 </ul>
 
 
-### Adobe Flash   
+### Adobe Flash
 
 Adobe Flash initially appeared as a cross-browser platform and language for multimedia, for making web alive with animation, audio and video. But there are other interesting features in Flash.
 
-<b>A <i>flash movie</i> is a compiled program, written in ActionScript</b>, usually bundles with images and other resources. 
+<b>A <i>flash movie</i> is a compiled program, written in ActionScript</b>, usually bundled with images and other resources. 
 
 <ul class="balance">
 <li class="list-plus">Great stuff for networking (sockets, UDP for P2P)</li>
-<li class="list-plus">Support for complex multimedia: images, audio, video is must more advanced compared to HTML5. Camera and microphone are here too.</li>
+<li class="list-plus">Support for complex multimedia: images, audio, video is much more advanced compared to HTML5. Camera and microphone are here too.</li>
 <li class="list-plus">Comfortable IDE for Flash, no browser incompatibilities.</li>
 <li class="minus">Flash has to be installed and enabled.</li>
 <li class="minus">Flash is not integrated with HTML page, it runs in a separate container within the page.</li>
 <li class="minus">Security limitations on Flash are almost as strict as on JavaScript.</li>
 </ul>
 
-As of now, there is a high pressure on Flash monopoly in many areas of it's use. For example, HTML5 provides means for browser to play video, draw, etc. Browsers which implement HTML5 stuff don't require Flash to do such things. And most browsers really go forward in making HTML5 features work.
+As of now, there is a high pressure on monopoly of Flash in many areas of its use. For example, HTML5 provides means for browser to play video, draw, etc. Browsers which implement HTML5 stuff don't require Flash to do such things. And most browsers really go forward in making HTML5 features work.
  
 
 But <b>both Java and Flash functions can call JavaScript and vice versa</b>, so usually a site uses mostly JavaScript, but also Java/Flash in places where JavaScript can't cope.
 
 
-### ActiveX, browser plugins/extensions   
+### ActiveX, browser plugins/extensions
 
-ActiveX is a great, but IE-only thing. It allows to write a program in C language which integrates with the page <i>if the visitor allows</i>.
+ActiveX is a great thing, but it's IE-only. It allows to write a program in C language which integrates with the page <i>if the visitor allows</i>.
 
 <ul class="balance">
 <li class="plus">Integrated with HTML/CSS</li>
-<li class="plus">Written in C, hence very fast and featured.</li>
+<li class="plus">Written in C, hence very fast and full-featured.</li>
 <li class="plus">Can do <i>everything</i> if the visitor allows it to install.</li>
 <li class="minus">Internet Explorer only. Chrome has partial support that has to be enabled.</li>
 <li class="minus">Development of ActiveX is difficult.</li>
@@ -163,28 +163,28 @@ Programs on Windows provide interfaces which can be used by ActiveX. So, a page 
 
 Other browsers allow to write plugins and extensions using NPAPI.
 
-Personally, I'm not a Microsoft fan. But I saw great applications done with ActiveX, and I <i>can</i> understand why people are using it and bind themselves to Windows/IE.
+Personally, I'm not a Microsoft fan. But I saw great applications done with ActiveX, and I <i>can</i> understand why people are using it, thus binding themselves to Windows/IE.
 
 
 
-### Other technologies: Silverlight, XUL, VBscript   
+### Other technologies: Silverlight, XUL, VBscript
 
 These technologies are much less widespread.
 
 <ul>
 <li><strong>XUL</strong> is a language for interfaces, useful if you only write for Mozilla browsers or making extensions to Firefox. Also used for desktop applications. 
 </li><li>
-<strong>Silverlight</strong> is an Adobe Flash competitor from Microsoft based on .NET. It runs best on Windows, the cross-platform support improves gradually time. Mostly used for Windows-based applications and intranet.
+<strong>Silverlight</strong> is an Adobe Flash competitor from Microsoft based on .NET. It runs best on Windows, but cross-platform support improves gradually over the time. Mostly used for Windows-based applications and intranet.
 </li><li>
-<strong>VBscript</strong> is an outdated attempt of Microsoft to do a JavaScript-like language based on Visual Basic. It is not being developed, VBScripts lack many abilities of JavaScript and hence are almost not used in  modern web programming.
+<strong>VBscript</strong> is an outdated attempt of Microsoft to do a JavaScript-like language based on Visual Basic. No longer under active development, VBScript lacks many abilities of JavaScript and hence is almost unused in modern web programming.
 </li></ul>
 
 
-## Summary   
+## Summary
 
 JavaScript is unique because it's widespread and it's well integrated with HTML/CSS.
 
-JavaScript has the bright and more-or-less compatible future.
+JavaScript has a bright and more-or-less compatible future.
 
 But a good JavaScript programmer should keep other technologies in mind too. For example, Flash, Java have their own unique features. They are able to call JavaScript functions and vice versa.
 
