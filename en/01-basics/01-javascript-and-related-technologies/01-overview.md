@@ -1,20 +1,20 @@
 
 # Overview: JavaScript, Flash, Java, Silverlight and ActiveX 
 
-Let's see what's so special in javascript, why javascript and what other useful  technologies exist besides it.
+Let's see what's so special in JavaScript, why JavaScript and what other useful  technologies exist besides it.
 
 =Cut
 
 
-## What is javascript?   
+## What is JavaScript?   
 
-<b>Javascript is a scripting language, created for making html-pages live</b>. It turns the web into something more powerful than just interlinked html pages.
+<b>JavaScript is a scripting language, created for making html-pages live</b>. It turns the web into something more powerful than just interlinked html pages.
 
-Javascript has nothing in common with Java. It is a completely different language with a similar naming. Javascript has the language specification called <a href="http://en.wikipedia.org/wiki/ECMAScript">ECMAScript</a>.
+JavaScript has nothing in common with Java. It is a completely different language with a similar naming. JavaScript has the language specification called <a href="http://en.wikipedia.org/wiki/ECMAScript">ECMAScript</a>.
 
-Programs in Javascript are called <i>scripts</i>. They need no compilation, you just write a script, append it to HTML-page and it works. 
+Programs in JavaScript are called <i>scripts</i>. They need no compilation, you just write a script, append it to HTML-page and it works. 
 
-Some people say javascript is like Python, some find it similar to Ruby or Self. The truth is that javascript is on its own, a really elegant but specific language.
+Some people say JavaScript is like Python, some find it similar to Ruby or Self. The truth is that JavaScript is on its own, a really elegant but specific language.
 
 
 ## What JavaScript can do?   
@@ -28,7 +28,7 @@ Some people say javascript is like Python, some find it similar to Ruby or Self.
 <li>...And much, much more!</li> 
 </ul>
 
-Modern javascript is a generic language. It is not browser-only. There are console programs and server <a href="http://nodejs.org">Node.JS</a> written in JavaScript. In this tutorial we're talking about in-browser JavaScript only.
+Modern JavaScript is a generic language. It is not browser-only. There are console programs and server <a href="http://nodejs.org">Node.JS</a> written in JavaScript. In this tutorial we're talking about in-browser JavaScript only.
 
 
 ## What JavaScript can't do?   
@@ -62,10 +62,10 @@ There are at least <i>three</i> killing points about it.
 
 The mix of the advantages cannot be found in any of other technologies.
 
-Also, remember that javascript is alive, under constant development. New features are coming, the modern ECMAScript standard brings nice features, new javascript engines work better and faster.
+Also, remember that JavaScript is alive, under constant development. New features are coming, the modern ECMAScript standard brings nice features, new JavaScript engines work better and faster.
 
 
-## Trends in Javascript. HTML5.   
+## Trends in JavaScript. HTML5.   
 
 When you plan to study a technology, say <i>invest your time</i>, it is always good to overview the trends.
 
@@ -84,11 +84,11 @@ Most topics of HTML5 are still in "draft" stage, but browsers tend to adopt them
 
 The title "HTML5" is a bit misleading. As you saw, the new standard is not just about HTML, but about interaction and advanced browser features.
 
-<blockquote>The trend is: javascript is enhancing its abilities. It is becoming more and more powerful, trying to reach desktop apps.</blockquote>
+<blockquote>The trend is: JavaScript is enhancing its abilities. It is becoming more and more powerful, trying to reach desktop apps.</blockquote>
 
-Modern browsers improve their engines to achieve higher javascript execution speed. They also fix bugs and try to follow the standard.
+Modern browsers improve their engines to achieve higher JavaScript execution speed. They also fix bugs and try to follow the standard.
 
-<blockquote>The trend is: javascript is becoming faster and more stable.</blockquote>
+<blockquote>The trend is: JavaScript is becoming faster and more stable.</blockquote>
 
 It is also very important that new standards HTML5 and ECMAScript 5/6 are mostly compatible with older standards. That means they don't break existing apps.
 
@@ -115,7 +115,7 @@ As you already know, JavaScript is not Java. In fact, they don't have much in co
 
 <b>A Java applet is a program for a browser just like an executable file.</b> A programmer writes it in Java, then compiles and puts a link on it into HTML. A browser then opens a page, finds the reference to an applet, downloads and executes it (if Java is enabled).
 
-An important difference between a Java applet and Javascript is their abilities. 
+An important difference between a Java applet and JavaScript is their abilities. 
 
 <ul class="balance">
 <li class="plus">Java can do <i>everything</i>, just like an installed  executable. For security, an unsafe action requires visitor's confirmation.</li>
@@ -176,7 +176,7 @@ These technologies are much less widespread.
 </li><li>
 <strong>Silverlight</strong> is an Adobe Flash competitor from Microsoft based on .NET. It runs best on Windows, the cross-platform support improves gradually time. Mostly used for Windows-based applications and intranet.
 </li><li>
-<strong>VBscript</strong> is an outdated attempt of Microsoft to do a javascript-like language based on Visual Basic. It is not being developed, VBScripts lack many abilities of javascript and hence are almost not used in  modern web programming.
+<strong>VBscript</strong> is an outdated attempt of Microsoft to do a JavaScript-like language based on Visual Basic. It is not being developed, VBScripts lack many abilities of JavaScript and hence are almost not used in  modern web programming.
 </li></ul>
 
 
