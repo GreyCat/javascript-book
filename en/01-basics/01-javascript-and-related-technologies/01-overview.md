@@ -182,13 +182,13 @@ These technologies are much less widespread.
 
 ## Summary   
 
-JavaScript is unique because it is a wide-spread and it's integration with HTML/CSS is best.
+JavaScript is unique because it's widespread and it's well integrated with HTML/CSS.
 
 JavaScript has the bright and more-or-less compatible future.
 
-But a good JavaScript programmer should keep other technologies in mind too. For example, Flash, Java have their own unique features. They are able to call javascript functions and vice versa.
+But a good JavaScript programmer should keep other technologies in mind too. For example, Flash, Java have their own unique features. They are able to call JavaScript functions and vice versa.
 
-So there are tasks which can be solved using a combinations of Javascript + Flash, Javascript + Java.
+So there are tasks which can be solved using combinations of JavaScript + Flash, JavaScript + Java.
 
 Examples are: selecting uploading multiple files at once (Flash), using camera and microphone (Flash), doing complex multimedia and graphics, including calculations (Flash, Java) and much more. You'll meet them on your way.
 
